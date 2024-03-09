@@ -1,0 +1,20 @@
+/*FUENTE GOOGLE FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Oswald:wght@200..700&display=swap');
+
+.logo{
+    max-width: 5%;
+    filter: grayscale(100%);
+}
+
+.navbar{
+    font-family: "Oswald";
+    transition: all 0.5s;
+}
+.navbar-scroll{
+    background-color: rgb(37, 34, 34);
+}
+
+body {
+    background-color:  rgb(70, 70, 70) !important;
+    color: white !important;
+}
