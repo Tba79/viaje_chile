@@ -18,3 +18,31 @@ body {
     background-color:  rgb(70, 70, 70) !important;
     color: white !important;
 }
+
+#quienes_somos{
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    font-family: "Assistant";
+    font-style: normal;
+}
+
+h1{
+    padding-bottom: 5rem;
+}
+
+hr{
+    padding-bottom: 7rem;
+}
+
+.col{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.bot{
+    background-color: rgb(13,202,240);
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
