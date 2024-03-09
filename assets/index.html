@@ -31,10 +31,10 @@
         <a class="nav-link" href="#quienes_somos">Quienes Somos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Destacados</a>
+        <a class="nav-link" href="#destacados">Destacados</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contacto</a>
+        <a class="nav-link" href="#contacto">Contacto</a>
       </li>
   </div>
 </div>
@@ -84,16 +84,70 @@
           </div>
         </div>
       </div>
-
-
-    
   </section>
-  <div>
-    Destacados
+  <section id="destacados">
+    <h1>Destacados</h1>
+  <div class="container">
+    <hr>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/img/card2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/img/card3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/assets/img/card4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div>
-    Contactos
+  <section id="contacto">
+    <h1>Contacto</h1>
+  <div class="container">
+    <hr>
+    <form action="/action_page.php" id="form">
+      <label for="fname">Nombre</label>
+      <input type="text" id="fname" name="firstname" >
+  
+      <label for="lname">Asunto</label>
+      <input type="text" id="lname" name="lastname" >
+  
+      
+  
+      <label for="subject">Mensaje</label>
+      <textarea id="subject" name="subject"  style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
   </div>
+  </section>
   <footer>
     iconos
   </footer>

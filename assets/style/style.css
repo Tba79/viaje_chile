@@ -19,7 +19,7 @@ body {
     color: white !important;
 }
 
-#quienes_somos{
+#quienes_somos, #destacados, #contacto{
     padding-top: 7rem;
     padding-bottom: 5rem;
     text-align: center;
@@ -45,4 +45,42 @@ hr{
     text-align: center;
     font-size: 2rem;
     margin: 0;
+}
+
+.card{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(13,202,240) !important;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(28, 134, 155);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(13,202,240) ;
+  }
+  
+  .container {
+    border-radius: 5px;
+   
+    padding: 20px;
+  }
+#form{
+    text-align: left;
 }
