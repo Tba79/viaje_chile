@@ -5,6 +5,9 @@
     max-width: 5%;
     filter: grayscale(100%);
 }
+.logo:hover{
+    filter: grayscale(0%);
+}
 
 .navbar{
     font-family: "Oswald";
@@ -20,19 +23,19 @@ body {
 }
 
 #quienes_somos, #destacados, #contacto{
-    padding-top: 7rem;
-    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
     text-align: center;
     font-family: "Assistant";
     font-style: normal;
 }
 
 h1{
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 hr{
-    padding-bottom: 7rem;
+    padding-bottom: 5rem;
 }
 
 
