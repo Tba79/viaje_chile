@@ -11,11 +11,11 @@
     transition: all 0.5s;
 }
 .navbar-scroll{
-    background-color: rgb(37, 34, 34);
+    background-color:  rgb(13,202,240);
 }
 
 body {
-    background-color:  rgb(70, 70, 70) !important;
+    background-color:  rgb(37, 37, 37) !important;
     color: white !important;
 }
 
@@ -34,6 +34,9 @@ h1{
 hr{
     padding-bottom: 7rem;
 }
+
+
+
 
 .col{
     text-align: justify;
@@ -61,26 +64,52 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: rgb(28, 134, 155);
+    }
+
+input[type=submit] {
+    background-color: rgb(13,202,240);
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: rgb(13,202,240) ;
-  }
-  
-  .container {
+}
+
+input[type=submit]:hover {
+    background-color: rgb(12, 174, 206) ;
+}
+
+.container {
     border-radius: 5px;
-   
     padding: 20px;
-  }
+}
+
 #form{
     text-align: left;
+}
+
+.card-img-top{
+    width: auto;
+    height: 15rem;
+}
+
+.footer-cont {
+    position: bottom;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.8rem;
+    font-family: "Oswald";
+    background-color: rgb(13,202,240) !important;
+    text-decoration: none;
+}
+
+.container a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: #cbcbcb;
 }
