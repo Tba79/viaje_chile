@@ -12,7 +12,11 @@
 .navbar{
     font-family: "Oswald";
     transition: all 0.5s;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 60px !important;
 }
+
 .navbar-scroll{
     background-color:  rgb(13,202,240);
 }
@@ -23,19 +27,18 @@ body {
 }
 
 #quienes_somos, #destacados, #contacto{
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-top: 6rem;
     text-align: center;
     font-family: "Assistant";
     font-style: normal;
 }
 
 h1{
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 hr{
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -98,15 +101,18 @@ input[type=submit]:hover {
 
 .footer-cont {
     position: bottom;
-    height: auto;
     left: 0;
     bottom: 0;
     width: 100%;
-    font-size: 1.8rem;
     font-family: "Oswald";
     background-color: rgb(13,202,240) !important;
     text-decoration: none;
+    font-size: 1.4rem; 
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: auto;
 }
+
 
 .container a {
     color: #ffffff;
