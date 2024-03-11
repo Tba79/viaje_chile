@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Oswald:wght@200..700&display=swap');
 
 .logo{
-    max-width: 5%;
+    max-width: 1.5rem;
     filter: grayscale(100%);
 }
 .logo:hover{
