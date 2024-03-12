@@ -41,9 +41,6 @@ hr{
     padding-bottom: 1rem;
 }
 
-
-
-
 .col{
     text-align: justify;
     text-justify: inter-word;
@@ -88,6 +85,7 @@ input[type=submit]:hover {
 .container {
     border-radius: 5px;
     padding: 20px;
+    margin-bottom: 1rem;
 }
 
 #form{
