@@ -1,5 +1,8 @@
 const navEl = document.querySelector('.navbar');
 
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
 window.addEventListener('scroll', () => {
     if (window.scrollY >= 250) {
         navEl.classList.add('navbar-scroll');
